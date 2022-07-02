@@ -1,0 +1,42 @@
+body {
+    background-color: #d63447;
+}
+
+.flex-container {
+    flex-direction: row;
+}
+
+.start {
+    justify-content: flex-start;
+}
+
+.end {
+    justify-content: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.column-center {
+    flex-direction: column;
+    justify-content: center;
+
+    height: 700px;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+
+.column-between {
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 700px;
+}
